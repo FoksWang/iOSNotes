@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		353081F72260EDA000830D0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 353081F62260EDA000830D0D /* AppDelegate.m */; };
+		353081FA2260EDA000830D0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353081F92260EDA000830D0D /* ViewController.m */; };
+		353081FD2260EDA000830D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353081FB2260EDA000830D0D /* Main.storyboard */; };
+		353081FF2260EDA100830D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353081FE2260EDA100830D0D /* Assets.xcassets */; };
+		353082022260EDA100830D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353082002260EDA100830D0D /* LaunchScreen.storyboard */; };
+		353082052260EDA100830D0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 353082042260EDA100830D0D /* main.m */; };
+		3530820F2260EDA100830D0D /* Lazy_Loading_MethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3530820E2260EDA100830D0D /* Lazy_Loading_MethodTests.m */; };
+		3530821A2260EDA100830D0D /* Lazy_Loading_MethodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 353082192260EDA100830D0D /* Lazy_Loading_MethodUITests.m */; };
+		353082292260EE8300830D0D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 353082282260EE8300830D0D /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3530820B2260EDA100830D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353081EA2260EDA000830D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353081F12260EDA000830D0D;
+			remoteInfo = "Lazy Loading Method";
+		};
+		353082162260EDA100830D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353081EA2260EDA000830D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353081F12260EDA000830D0D;
+			remoteInfo = "Lazy Loading Method";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		353081F22260EDA000830D0D /* Lazy Loading Method.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lazy Loading Method.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		353081F52260EDA000830D0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		353081F62260EDA000830D0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		353081F82260EDA000830D0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		353081F92260EDA000830D0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		353081FC2260EDA000830D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		353081FE2260EDA100830D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353082012260EDA100830D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		353082032260EDA100830D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353082042260EDA100830D0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3530820A2260EDA100830D0D /* Lazy Loading MethodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lazy Loading MethodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3530820E2260EDA100830D0D /* Lazy_Loading_MethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lazy_Loading_MethodTests.m; sourceTree = "<group>"; };
+		353082102260EDA100830D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353082152260EDA100830D0D /* Lazy Loading MethodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lazy Loading MethodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		353082192260EDA100830D0D /* Lazy_Loading_MethodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lazy_Loading_MethodUITests.m; sourceTree = "<group>"; };
+		3530821B2260EDA100830D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353082272260EE8300830D0D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		353082282260EE8300830D0D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353081EF2260EDA000830D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353082072260EDA100830D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353082122260EDA100830D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353081E92260EDA000830D0D = {
+			isa = PBXGroup;
+			children = (
+				353081F42260EDA000830D0D /* Lazy Loading Method */,
+				3530820D2260EDA100830D0D /* Lazy Loading MethodTests */,
+				353082182260EDA100830D0D /* Lazy Loading MethodUITests */,
+				353081F32260EDA000830D0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		353081F32260EDA000830D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353081F22260EDA000830D0D /* Lazy Loading Method.app */,
+				3530820A2260EDA100830D0D /* Lazy Loading MethodTests.xctest */,
+				353082152260EDA100830D0D /* Lazy Loading MethodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353081F42260EDA000830D0D /* Lazy Loading Method */ = {
+			isa = PBXGroup;
+			children = (
+				353081F52260EDA000830D0D /* AppDelegate.h */,
+				353081F62260EDA000830D0D /* AppDelegate.m */,
+				353081F82260EDA000830D0D /* ViewController.h */,
+				353081F92260EDA000830D0D /* ViewController.m */,
+				353081FB2260EDA000830D0D /* Main.storyboard */,
+				353081FE2260EDA100830D0D /* Assets.xcassets */,
+				353082002260EDA100830D0D /* LaunchScreen.storyboard */,
+				353082032260EDA100830D0D /* Info.plist */,
+				353082042260EDA100830D0D /* main.m */,
+				353082272260EE8300830D0D /* Person.h */,
+				353082282260EE8300830D0D /* Person.m */,
+			);
+			path = "Lazy Loading Method";
+			sourceTree = "<group>";
+		};
+		3530820D2260EDA100830D0D /* Lazy Loading MethodTests */ = {
+			isa = PBXGroup;
+			children = (
+				3530820E2260EDA100830D0D /* Lazy_Loading_MethodTests.m */,
+				353082102260EDA100830D0D /* Info.plist */,
+			);
+			path = "Lazy Loading MethodTests";
+			sourceTree = "<group>";
+		};
+		353082182260EDA100830D0D /* Lazy Loading MethodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				353082192260EDA100830D0D /* Lazy_Loading_MethodUITests.m */,
+				3530821B2260EDA100830D0D /* Info.plist */,
+			);
+			path = "Lazy Loading MethodUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353081F12260EDA000830D0D /* Lazy Loading Method */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3530821E2260EDA100830D0D /* Build configuration list for PBXNativeTarget "Lazy Loading Method" */;
+			buildPhases = (
+				353081EE2260EDA000830D0D /* Sources */,
+				353081EF2260EDA000830D0D /* Frameworks */,
+				353081F02260EDA000830D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lazy Loading Method";
+			productName = "Lazy Loading Method";
+			productReference = 353081F22260EDA000830D0D /* Lazy Loading Method.app */;
+			productType = "com.apple.product-type.application";
+		};
+		353082092260EDA100830D0D /* Lazy Loading MethodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353082212260EDA100830D0D /* Build configuration list for PBXNativeTarget "Lazy Loading MethodTests" */;
+			buildPhases = (
+				353082062260EDA100830D0D /* Sources */,
+				353082072260EDA100830D0D /* Frameworks */,
+				353082082260EDA100830D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3530820C2260EDA100830D0D /* PBXTargetDependency */,
+			);
+			name = "Lazy Loading MethodTests";
+			productName = "Lazy Loading MethodTests";
+			productReference = 3530820A2260EDA100830D0D /* Lazy Loading MethodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		353082142260EDA100830D0D /* Lazy Loading MethodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353082242260EDA100830D0D /* Build configuration list for PBXNativeTarget "Lazy Loading MethodUITests" */;
+			buildPhases = (
+				353082112260EDA100830D0D /* Sources */,
+				353082122260EDA100830D0D /* Frameworks */,
+				353082132260EDA100830D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353082172260EDA100830D0D /* PBXTargetDependency */,
+			);
+			name = "Lazy Loading MethodUITests";
+			productName = "Lazy Loading MethodUITests";
+			productReference = 353082152260EDA100830D0D /* Lazy Loading MethodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353081EA2260EDA000830D0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Hui Wang";
+				TargetAttributes = {
+					353081F12260EDA000830D0D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					353082092260EDA100830D0D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 353081F12260EDA000830D0D;
+					};
+					353082142260EDA100830D0D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 353081F12260EDA000830D0D;
+					};
+				};
+			};
+			buildConfigurationList = 353081ED2260EDA000830D0D /* Build configuration list for PBXProject "Lazy Loading Method" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 353081E92260EDA000830D0D;
+			productRefGroup = 353081F32260EDA000830D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				353081F12260EDA000830D0D /* Lazy Loading Method */,
+				353082092260EDA100830D0D /* Lazy Loading MethodTests */,
+				353082142260EDA100830D0D /* Lazy Loading MethodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353081F02260EDA000830D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353082022260EDA100830D0D /* LaunchScreen.storyboard in Resources */,
+				353081FF2260EDA100830D0D /* Assets.xcassets in Resources */,
+				353081FD2260EDA000830D0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353082082260EDA100830D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353082132260EDA100830D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353081EE2260EDA000830D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353081FA2260EDA000830D0D /* ViewController.m in Sources */,
+				353082052260EDA100830D0D /* main.m in Sources */,
+				353082292260EE8300830D0D /* Person.m in Sources */,
+				353081F72260EDA000830D0D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353082062260EDA100830D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3530820F2260EDA100830D0D /* Lazy_Loading_MethodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353082112260EDA100830D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3530821A2260EDA100830D0D /* Lazy_Loading_MethodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3530820C2260EDA100830D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353081F12260EDA000830D0D /* Lazy Loading Method */;
+			targetProxy = 3530820B2260EDA100830D0D /* PBXContainerItemProxy */;
+		};
+		353082172260EDA100830D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353081F12260EDA000830D0D /* Lazy Loading Method */;
+			targetProxy = 353082162260EDA100830D0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		353081FB2260EDA000830D0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353081FC2260EDA000830D0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		353082002260EDA100830D0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353082012260EDA100830D0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3530821C2260EDA100830D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3530821D2260EDA100830D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3530821F2260EDA100830D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lazy Loading Method/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huiwang.Lazy-Loading-Method";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		353082202260EDA100830D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lazy Loading Method/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huiwang.Lazy-Loading-Method";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		353082222260EDA100830D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lazy Loading MethodTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huiwang.Lazy-Loading-MethodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazy Loading Method.app/Lazy Loading Method";
+			};
+			name = Debug;
+		};
+		353082232260EDA100830D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lazy Loading MethodTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huiwang.Lazy-Loading-MethodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazy Loading Method.app/Lazy Loading Method";
+			};
+			name = Release;
+		};
+		353082252260EDA100830D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lazy Loading MethodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huiwang.Lazy-Loading-MethodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lazy Loading Method";
+			};
+			name = Debug;
+		};
+		353082262260EDA100830D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lazy Loading MethodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huiwang.Lazy-Loading-MethodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lazy Loading Method";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353081ED2260EDA000830D0D /* Build configuration list for PBXProject "Lazy Loading Method" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3530821C2260EDA100830D0D /* Debug */,
+				3530821D2260EDA100830D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3530821E2260EDA100830D0D /* Build configuration list for PBXNativeTarget "Lazy Loading Method" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3530821F2260EDA100830D0D /* Debug */,
+				353082202260EDA100830D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353082212260EDA100830D0D /* Build configuration list for PBXNativeTarget "Lazy Loading MethodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353082222260EDA100830D0D /* Debug */,
+				353082232260EDA100830D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353082242260EDA100830D0D /* Build configuration list for PBXNativeTarget "Lazy Loading MethodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353082252260EDA100830D0D /* Debug */,
+				353082262260EDA100830D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 353081EA2260EDA000830D0D /* Project object */;
+}
