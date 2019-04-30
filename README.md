@@ -20,4 +20,7 @@ https://www.youtube.com/playlist?list=PL5sjZaUWK4Louy8Tsr3sF7-KTPRoMgrYF
 #### 003 iOS - Play with lazy loading method - iOS development, iOS learning, iOS interview
 [![003 iOS - Play with lazy loading method - iOS development, iOS learning, iOS interview](https://img.youtube.com/vi/OlliVASN99Q/0.jpg)](https://youtu.be/OlliVASN99Q)
 
+#### 004 iOS - Play with method call order - iOS development, iOS learning, iOS interview
+[![004 iOS - Play with method call order - iOS development, iOS learning, iOS interview](https://img.youtube.com/vi/_NeqSXyJxaE/0.jpg)](https://youtu.be/_NeqSXyJxaE)
+
 #### To be continued
