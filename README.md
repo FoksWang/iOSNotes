@@ -26,4 +26,8 @@ https://www.youtube.com/playlist?list=PL5sjZaUWK4Louy8Tsr3sF7-KTPRoMgrYF
 #### 005 iOS - Get into ReactiveObjC/FRP - iOS development, iOS learning, iOS interview
 [![005 iOS - Get into ReactiveObjC/FRP - iOS development, iOS learning, iOS interview](https://img.youtube.com/vi/DTmFxvFJEkc/0.jpg)](https://youtu.be/DTmFxvFJEkc)
 
+#### 006 iOS - Basic usage of ReactiveObjC - iOS development, iOS learning, iOS interview
+[![006 iOS - Basic usage of ReactiveObjC - iOS development, iOS learning, iOS interview](https://img.youtube.com/vi/jWJEBw1rwls/0.jpg)](https://youtu.be/jWJEBw1rwls)
+
+
 #### To be continued
