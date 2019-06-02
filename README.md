@@ -29,5 +29,8 @@ https://www.youtube.com/playlist?list=PL5sjZaUWK4Louy8Tsr3sF7-KTPRoMgrYF
 #### 006 iOS - Basic usage of ReactiveObjC - iOS development, iOS learning, iOS interview
 [![006 iOS - Basic usage of ReactiveObjC - iOS development, iOS learning, iOS interview](https://img.youtube.com/vi/jWJEBw1rwls/0.jpg)](https://youtu.be/jWJEBw1rwls)
 
+#### 007 iOS - Higher-Order Functions of RAC - iOS development, iOS learning, iOS interview
+[![007 iOS - Higher-Order Functions of RAC - iOS development, iOS learning, iOS interview](https://img.youtube.com/vi/ITxiUy3f818/0.jpg)](https://youtu.be/ITxiUy3f818)
+
 
 #### To be continued
