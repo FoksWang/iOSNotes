@@ -32,5 +32,8 @@ https://www.youtube.com/playlist?list=PL5sjZaUWK4Louy8Tsr3sF7-KTPRoMgrYF
 #### 007 iOS - Higher-Order Functions of RAC - iOS development, iOS learning, iOS interview
 [![007 iOS - Higher-Order Functions of RAC - iOS development, iOS learning, iOS interview](https://img.youtube.com/vi/ITxiUy3f818/0.jpg)](https://youtu.be/ITxiUy3f818)
 
+#### 008 The format of codecs and container - iOS audio and video development, iOS interview
+[![008 The format of codecs and container - iOS audio and video development, iOS interview](https://img.youtube.com/vi/9IGtPAIbdag/0.jpg)](https://youtu.be/9IGtPAIbdag)
+
 
 #### To be continued
